@@ -39,9 +39,6 @@ public class MoveTheBunnyDeleteME : MonoBehaviour
             Rigidbody2D rigidbody = bullet.GetComponent<Rigidbody2D>();
             rigidbody.AddForce(Arrow.transform.right * 100);
 
-
-
-
         }
     }
 }

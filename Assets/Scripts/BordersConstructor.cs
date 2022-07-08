@@ -11,6 +11,8 @@ public class BordersConstructor : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+
+
         GameObject top = Instantiate(Border);
         GameObject bot = Instantiate(Border);
         GameObject left = Instantiate(Border);
